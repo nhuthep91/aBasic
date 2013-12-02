@@ -1,6 +1,6 @@
 <Alloy>
 	<Window class="container" id="index" >
-		
+		<Label id="hello" onClick="hello">Hello</Label>
 		<Button id="tab" onClick="tab">TAB </Button>
 		<Button id="json" onClick="json">JSON</Button>
 		<Button id="gps" onClick="gps">GPS</Button>

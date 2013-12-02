@@ -1,5 +1,8 @@
 
 $.index.open();
+function hello(){
+	alert("xin chao");
+}
 
 //------------- defined function tab
 //it contain listView, tableView, textArea...
