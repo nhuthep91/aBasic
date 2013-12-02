@@ -1,0 +1,1 @@
+module.exports = [{"isApi":true,"priority":1000.0031,"key":"TabGroup","style":{top:"0dp",tabsBackgroundColor:"#59ACFF",backgroundColor:"white",}}];

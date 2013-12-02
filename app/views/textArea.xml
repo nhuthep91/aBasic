@@ -1,0 +1,18 @@
+<Alloy>
+	<Tab title="TEXT AREA">
+		<Window id="textArea">
+		
+			<Label text="Enter your name:" id="nameLB"></Label>
+			<TextField id="name" hintText="Nhu Thep" />
+			
+			<Label text="Enter your address:" id="addrLB"></Label> 
+			<TextField id="addr" hintText="Ha Noi" /> 
+			
+			<Label text="Enter your age:" id="ageLB"></Label>
+			<TextField id="age" hintText="22" /> 
+			
+			<Label id="addPeople" textAlign="center"> Add </Label>
+			
+		</Window>
+	</Tab>
+</Alloy>

@@ -1,0 +1,50 @@
+<Alloy>
+	<Tab title="LIST VIEW">
+		<Window id="listView">
+		
+			<ListView id="myListView" defaultItemTemplate="template">
+    	
+    	<!--Dinh nghia template-->	
+    		<Templates>
+    			<!--Template win 1-->
+    			<ItemTemplate id="template" name="template" >
+    			<!--Template of icon 1-->
+						<Label id="name" bindId="name" />
+						<Label id="addr" bindId="addr" />
+						<Label id="age" bindId="age" /> 
+    			</ItemTemplate>
+    			
+    		</Templates>
+    		
+    	<!--Tao cac section -->	
+    		<ListSection id="sectionHaNoi" headerTitle="HA NOI">
+    					<ListItem template="template" name:text="nhu thep"
+    						addr:text="tu liem - ha noi" age:text="22"/>
+    					<ListItem template="template" name:text="mac hai"
+    						addr:text="cau giay - ha noi" age:text="20"/>
+    					<ListItem template="template" name:text="thu ha"
+    						addr:text="tay ho - ha noi" age:text="21"/>
+    					<ListItem template="template" name:text="nguyen vi"
+    						addr:text="tu liem - ha noi" age:text="16"/>
+			</ListSection>
+			<ListSection id="sectionHaiDuong" headerTitle="HAI DUONG">
+    					<ListItem template="template" name:text="nhu thep"
+    						addr:text="kim thanh - hai duong" age:text="22"/>
+    					<ListItem template="template" name:text="van ngoc"
+    						addr:text="tu ky - hai duong" age:text="21"/>
+    					<ListItem template="template" name:text="nguyen phuong"
+    						addr:text="chi linh - hai duong" age:text="19"/>
+			</ListSection>
+			<ListSection id="sectionHaiPhong" headerTitle="HAI PHONG">
+    					<ListItem template="template" name:text="nhu thep"
+    						addr:text="van cao - hai phong" age:text="22"/>
+    					<ListItem template="template" name:text="hong nhung"
+    						addr:text="do son - hai phong" age:text="20"/>
+   						<ListItem template="template" name:text="mai huong"
+    						addr:text="cat hai - hai phong" age:text="25"/>
+			</ListSection>
+		
+		</ListView>
+		</Window>
+	</Tab>
+</Alloy>

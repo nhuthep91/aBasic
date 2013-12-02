@@ -1,0 +1,2 @@
+
+$.sqlite.open({modal:true});

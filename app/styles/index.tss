@@ -1,0 +1,44 @@
+"#index":{
+	backgroundColor: 'white',
+},
+"#tab":{
+	opacity: 0.8,
+	backgroundColor: "#59ACFF", color:'white', backgroundSelectedColor:"orange", 
+	top: '30dp', left: '20dp', width: '50dp', height: '30dp',
+},
+"#json":{
+	opacity: 0.8,
+	backgroundColor: "#59ACFF", color:'white', backgroundSelectedColor:"orange", 
+	top: '30dp', left: '100dp', width: '50dp', height: '30dp',
+},
+"#gps":{
+	opacity: 0.8,
+	backgroundColor: "#59ACFF", color:'white', backgroundSelectedColor:"orange",
+	top: '30dp', left: '180dp', width: '50dp', height: '30dp', 
+},
+"#SQLite":{
+	opacity: 0.8,
+	backgroundColor: "#59ACFF", color:'white', backgroundSelectedColor:"orange",
+	top: '90dp', left: '20dp', width: '80dp', height: '30dp',
+},
+"#camera":{
+	opacity: 0.8,
+	backgroundColor: "#59ACFF", color:'white', backgroundSelectedColor:"orange",
+	top: '90dp', left: '125dp', width: '80dp', height: '30dp',
+},
+"#gallery":{
+	opacity: 0.8,
+	backgroundColor: "#59ACFF", color:'white', backgroundSelectedColor:"orange",
+	top: '90dp', left: '230dp', width: '80dp', height: '30dp',
+},
+"#barcode":{
+	opacity: 0.8,
+	backgroundColor: "#59ACFF", color:'white', backgroundSelectedColor:"orange",
+	top: '150dp', left: '20dp', width: '80dp', height: '30dp',
+},
+"#serverJSON":{
+	opacity: 0.8,
+	backgroundColor: "#59ACFF", color:'white', backgroundSelectedColor:"orange",
+	top: '150dp', left: '130dp', width: '130dp', height: '30dp',
+}
+

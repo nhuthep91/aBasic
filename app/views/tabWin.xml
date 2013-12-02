@@ -1,0 +1,9 @@
+<Alloy>
+		<TabGroup exitOnClose="false"  >
+			
+			<Require src="listView"/>
+			<Require src="tableView"/>           
+          	<Require src="textArea"/>
+         
+        </TabGroup>
+</Alloy>

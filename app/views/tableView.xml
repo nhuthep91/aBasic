@@ -1,0 +1,21 @@
+<Alloy>
+	<Tab title="TABLE VIEW" center="true" animatedCenter="true">
+		<Window id="tableView">
+			
+			<TableView id="myTableView">
+				<TableViewRow id="row1" backgroundColor="orange" >
+					<Label>Hang so 1</Label>
+				</TableViewRow>
+				
+				<TableViewRow id="row2" backgroundColor="green" >
+					<Label>Hang so 2</Label>
+				</TableViewRow>
+				
+				<TableViewRow id="row3" backgroundColor="brown" >
+					<Label>Hang so 3</Label>
+				</TableViewRow>
+			</TableView>
+			
+		</Window>
+	</Tab>
+</Alloy>

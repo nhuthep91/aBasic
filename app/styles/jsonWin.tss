@@ -1,0 +1,41 @@
+
+"ListSection": {
+	color: 'gray',
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+    height: '50dp',
+    opacity: 0.7,
+    font: {
+        fontFamily:'sansserif',
+        fontSize: '35dp',
+        fontStyle: 'normal',
+        fontWeight: 'bold'
+		} 
+},
+"#name":{
+    left: '7dp', top: '7dp',
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT, 
+    font: {
+        fontSize: '15dp',
+        fontWeight: 'normal'
+    }	
+
+},
+"#addr":{
+	left: '7dp', top: '32dp', 
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT, 
+    font: {
+        fontSize: '12dp',
+        fontWeight: 'normal'
+    }	
+
+},
+"#age":{
+	right: '20dp', bottom : '0dp',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT, 
+    font: {
+        fontSize: '12dp',
+        fontWeight: 'normal'
+    }	
+
+}
+

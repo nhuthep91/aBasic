@@ -1,0 +1,18 @@
+"Tab":{
+	backgroundSelectedColor: "#509BE6", top: '5dp',
+	fontSize: '20dp', textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+},
+"TableViewRow":{
+	opacity:"0.5",
+	height:'40dp'
+},
+"Label":{
+	color: 'red',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font: {
+        fontFamily:'sansserif',
+        fontSize: '25dp',
+        fontStyle: 'normal',
+        fontWeight: 'bold'
+		} ,
+}

@@ -1,0 +1,30 @@
+<Alloy>
+	<Window id="json" backgroundColor="white">
+
+		<ListView id="myJSON" defaultItemTemplate="template">
+    	
+    	<!--Dinh nghia template-->	
+    		<Templates>
+    			<!--Template win 1-->
+    			<ItemTemplate id="template" name="template" >
+    			<!--Template of icon 1-->
+						<Label id="name" bindId="name" />
+						<Label id="addr" bindId="addr" />
+						<Label id="age" bindId="age" /> 
+    			</ItemTemplate>
+    			
+    		</Templates>
+    				
+			<ListSection id="sectionJson" headerTitle="Vi du ve JSON">
+    					<ListItem template="template" />
+    					<!-- <ListItem template="template" />
+    					<ListItem template="template" />
+    					<ListItem template="template" /> -->
+			</ListSection>
+			
+		</ListView>		
+	</Window>
+</Alloy>	
+
+
+
